@@ -1,0 +1,678 @@
+/* Search Pages */
+.sal_area tr td{
+  cursor: pointer;
+}
+.abt_us p{
+   text-align: justify;
+}
+.rad_btns .radio-inline{
+  margin-left:10px; 
+}
+.rad_btns .fchld{
+  margin-left:70px; 
+}
+.ag_name label{
+  margin-top: 15px;
+}
+.image-preview-input {
+  position: relative;
+  overflow: hidden;
+  margin: 0px;    
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+position: absolute;
+top: 0;
+right: 0;
+margin: 0;
+padding: 0;
+font-size: 20px;
+cursor: pointer;
+opacity: 0;
+filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+  margin-left:2px;
+}
+.image-preview .form-control{
+  height: 34px !important;
+}
+.rmbr_me .checkbox{
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-left: 1px;
+}
+.rmbr_me .checkbox label{
+  color: #fff;
+ }
+ #login .agent-login {
+  background: #1f3f81;
+  margin: auto;
+  width: 500px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* User */
+.usr_nam h3{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+.user_img {
+border-radius: 10px;
+box-shadow: 0px 2px 1px 2px rgba(0,0,0,0.2);
+}
+.tabs-left{
+  border-bottom: none;
+  padding-top: 2px;
+}
+.tabs-left {
+  border-right: 1px solid #ddd;
+}
+.tabs-left>li{
+  float: none;
+  margin-bottom: 2px;
+}
+.tabs-left>li {
+  margin-right: -1px;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  border-bottom-color: #ddd;
+  border-right-color: transparent;
+}
+
+.tabs-left>li>a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display:block;
+}
+.my-group .form-control{
+  width:60%;
+}
+.my-group .selct_bx{
+  width:40%;
+}
+
+/* Updated Property Valuation 16-Oct */
+.pro_valua .keyword-input {
+  height: 38px !important;
+  border-radius: 2px !important;
+  width: 30%;
+}
+.pro_valua .btn{
+  padding: 7px 28px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+.pro_valua .h4{
+  padding: 7px 28px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+.chk_bx{
+  display: inline-block;
+  width: 5%;
+}
+.chk_bx .checkbox-inline {
+  margin-bottom: 40px;
+  margin-top: 17px;
+}
+.brnd_nam{
+  display: inline-block;
+  text-align: center;
+  width: 35%;
+}
+.brnd_nam .thumbnail{
+  display: inline-block;
+  margin-top: 15px;
+}
+.brnd_dtl{
+  display: inline-block;
+  width: 55%;
+}
+.brnd_dtl p{
+  margin-bottom: 20px;
+}
+.bdr_tp {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+.pro_valua .col-md-9{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Updated Mortgage 17-Oct */
+
+.mortgage{
+ border: 2px solid #ccc;
+ padding-top:35px;
+ padding-bottom:10px; 
+ background: #F9F9F9;
+ box-shadow: 0px 1px 8px rgba(0,0,0,.3);
+}
+.mortgage .mortgage_hdng h4{
+  background: #1f3f81; 
+padding-right: 35px;
+padding-top:20px; 
+padding-left:35px;
+padding-bottom:20px; 
+color: #fff;
+box-shadow:2px 2px 5px 0px rgba(0,0,0,0.4);
+display: inline-block;
+ } 
+.mortgage_cal {
+  padding: 35px 35px 10px 30px;
+}
+.mortgage_cal .mortgage_input {
+  /*border: 1px solid #aebcc1;*/
+  /* border-radius: 3px; */
+  font-family: 'Droid Sans',sans-serif;
+  font-size: 14px;
+  padding: 3px 2px;
+  text-align: center;
+  width: 5em;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 5px;
+   background: #d3d3d3; 
+  outline: none;
+  opacity: 0.8;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50 !important;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #1F3F81 !important;
+  cursor: pointer;
+}
+.xs-collapse {
+  display: none;
+}
+.pro_nav li{
+  padding-left: 15px;
+} 
+.agent_wrap .img_dtl {
+  background: rgba(0,222,182, 0.9);
+}
+.agent_wrap:hover .img_dtl {
+  background: rgba(0,222,182, 0.9);
+  top: 0 !important;
+  z-index: 3;
+}
+.agnt_img {
+  border: 4px solid rgba(0,0,0, 0.9);
+}
+.agent_wrap .img_dtl h3, .agent_wrap .img_dtl p, .agent_wrap .img_dtl span{
+  color: #000;
+}
+.img_dtl .agent_contact td {
+  color: #000;
+}
+.img_tag img{
+  position: relative;
+}
+.img_icon{
+ position: relative;
+ width: 0; 
+ height: 0; 
+ border-top: 50px solid rgba(0,222,182, 0.9); 
+ border-right: 50px solid transparent;
+}
+.img_tag .img_icon i{
+  position: absolute;
+  left: 7px;
+  top: -43px;
+  z-index: 1;
+}
+.img_tag .img_icon{
+  position: absolute;
+  left:0px; 
+  top: 0px;
+  z-index: 1;
+}
+
+
+/* property card 26 Oct */
+.media-left {
+  max-width: 430px;
+  max-height: 300px;
+  min-width: 430px;
+  min-height: 300px;
+ overflow:hidden;
+}
+.media-left .media-object {
+  max-width: 490px;
+  max-height: 320px;
+  min-width: 490px;
+  min-height: 320px;
+  /* -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,1);
+  -moz-box-shadow:    0 0 13px 3px rgba(0,0,0,1);
+  box-shadow:         0 0 13px 3px rgba(0,0,0,1); */
+  
+}
+#deals .deal_media .price {
+  padding: 15px 10px;
+  margin: 0px 0;
+}
+.proerty_content .proerty_text {
+  padding: 5px 20px;
+}
+.proerty_content .proerty_text h3 {
+  font-size: 18px;
+}
+.proerty_content .proerty_text h4 {
+  font-size: 14px;
+}
+.block-with-text {
+  max-height: 2.7em;
+}
+.agn_btn li a{
+  cursor: pointer;
+  
+}
+.agn_btn li a:focus {
+  outline: none;
+}
+
+/* 29 Oct */
+.agncy_btn span{
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+ .slider {
+        width: 50%;
+        margin: 0px auto;
+    }
+
+    .slick-slide {
+      margin: 15px 5px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+    .desc p{
+      word-break: break-all;
+      white-space: normal;
+      height: 46.2px;
+      /* Fallback for non-webkit */
+      /* -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical; */
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .small-box p{
+      color: #fff;
+    }
+
+    /* 31 Oct */
+    .input-group .form-control {
+      z-index: 0;
+    }
+    .hom_news p{
+      /* word-break: break-all; */
+      white-space: normal;
+      height: 66.2px;
+      /* Fallback for non-webkit */
+      /* -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical; */
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .news_list p{
+      /* word-break: break-all; */
+      white-space: normal;
+      height:107.2px;
+      /* Fallback for non-webkit */
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    body{
+      font-family: "Work Sans", sans-serif !important;
+    }
+  lead {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+.agnt_dtls  i {
+  font-size: 17px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.sidbar_data{
+  border-bottom: 2px solid #ccc;
+}
+  /* .sidbar_data{
+    display: inline;
+  } */
+  .sidbar_data p{
+    word-break: break-all;
+    white-space: normal;
+  }
+.big img{
+  display:block; height:500px !important; margin:0 auto;
+}
+  .small img{
+    display:block; height:100px !important; margin:0 auto;
+  }
+#property-d-1.single .owl-prev, #property-d-1.single .owl-next {
+    top: 40px !important;
+}
+.town_dtl .zelected{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; 
+  word-break: break-all; */
+  height: 30px;
+}
+.proprties_images { height: 199px; width: 360px; overflow: hidden; }
+h2{
+  font-weight: 300;
+}
+.featu_pro {
+  padding-top: 60px;
+}
+.pro_lis{
+  padding-left: 0px;
+  padding-right: 0px;
+  
+}
+.news_pro h4{
+  font-weight: 300 !important;
+  font-family: 'Work Sans", sans-serif' !important;
+  font-size: 16px;
+}
+.sid_b .tag{
+  font-size: 13px !important;
+}
+.news_imgs{
+  height: 210px;
+  overflow: hidden;
+}
+.news_imgs img{
+  height: 100%;
+}
+.listing_full_bg .property_meta > span {
+  font-size: 12px;
+}
+#news-section-1 .news-1-box {
+  padding-bottom: 20px;
+}
+/* Agent Menu List Slider */
+.agnt_lst p{
+  font-size: 13px;
+
+}
+.ouragents .agnt_lst {
+  padding: 25px 20px !important;
+}
+.ouragents .agnt_lst_img{
+    background: #fff;
+}
+.ouragents .agnt_lst_img img{
+  margin:30px auto; width:200px;display:block
+}
+.ouragents .agnt_lst a{
+  color: #3275B2;
+}
+.ouragents .agnt_lst a:hover{
+  color: #3275B2;
+}
+.ouragents .agnt_lst span b{
+  font-size: 14px;
+  font-weight: 500
+}
+.agent_list_sldr img {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  
+}
+.agent_list_sldr .image{
+  /* height: 200px;
+  width: 100%; */
+  /* overflow: hidden; */
+  max-width: 100%;
+  max-height:130px;
+  min-width: 100%;
+  min-height: 150px;
+  overflow: hidden;
+}
+.propert_des_logo{
+  height: 150px;
+  width: 100%;
+}
+.propert_des_logo img{
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.prop_des_coun p{
+  font-size: 14px;
+}
+.number-prop_des_coun .counters-item strong {
+  font-size: 33px;
+  font-weight: 600;
+}
+.agency_logo{
+  /* height: 200px;
+  width: 100%; */
+  max-width: 340px;
+  max-height: 300px;
+  min-width: 300px;
+  min-height: 230px;
+  overflow: hidden;
+}
+.agency_logo img{
+  /* max-width: 100%;
+  max-height: 100%;
+  overflow: hidden; */
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+} 
+.pro_li{
+  margin-left:0px !important; 
+ }
+.pro_li li{
+ display: inline;
+}
+
+/* Latest News */
+.lat_ne_aut span{
+  font-size: 13px !important;
+  line-height: 8px !important;
+  margin-top: 10px;
+}
+
+.news_hdng h5{
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.la_im img{
+    transition: all 0.7s ease 0s;
+    -moz-transition: all ease-in .3s;
+    -ms-transition: all ease-in .3s;
+    -o-transition: all ease-in .3s;
+    -webkit-transition: all ease-in .3s;
+    transition: all ease-in .3s;
+  }
+.la_im img:hover{
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.ltst_news_btn a{
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  background-color:#0ebf7f;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  font-weight: 700;
+  border-radius: 1px;
+}
+.ltst_news_btn a:hover{
+  background-color:  #3275B2;
+  color: #000;
+  border: none;
+}
+.social_share .fa{
+    line-height: 2;
+}
+.adre{
+  vertical-align: top !important;
+}
+/* .agnt_pro{
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+} */
+.agnt_pro img {
+  width: auto;
+  min-height: 100%;
+  margin: 0 0.8em .5em 0;
+}
+.agn_dtl{
+font-size: 14px;
+}
+.agnt_pro p{
+  text-align: justify;
+}
+.main_ag_img img{
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+}
+.main_ag{
+  text-align: justify;
+}
+.dtl_ag p{
+  margin: 0 0 5px;
+}
+
+/* 7 Nov */
+#two-col-slider .owl-item .item .listing_full .image img{
+  display:block; height:350px !important; margin:0 auto 30px;
+}
+ /* nav property slider */
+#nav_slider .item .image img{
+    display:block; height:200px !important;
+}
+.agent_wrap .img-info {
+  padding: 30px 20px 0 20px !important;
+}
+#agent-2 .agent_wrap .image{
+  display:block; height:350px !important; margin:0 auto 30px;
+}
+
+/* 9 Nov */
+.proprty_typ{
+  display: inline-block;
+  /* position: absolute;
+  left: 0px;
+  top: 2px; */
+  margin-left: 30px;
+}
+.pro_ty{
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+}
+.pro_ty h4{
+ padding: 8px 25px;
+ text-transform: uppercase;
+ font-weight: 200px !important;
+}
+.usr_sdbar a{
+  font-size: 14px;
+}
+
+/**************  My Media Queries **************/
+
+@media only screen and (min-width : 299px) and (max-width : 479px) {
+.mb_scr{
+    display:none;
+}
+.attr-nav {
+    right: 10px;
+}
+.proprties_images {
+
+    height: auto;
+    width: auto;
+    overflow: hidden;
+
+}
+.listing_full_bg {
+    margin: 0 0px;
+}
+}
+@media only screen and (min-width : 480px) and (max-width : 600px) {
+.mb_scr{
+    display:none;
+}
+}
